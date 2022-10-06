@@ -104,7 +104,7 @@ class DHCO:
       elif method=="vc":
         return self.Ldelta_mean + np.sqrt(self.Ldelta_variance)*sp.stats.norm.pdf(sp.stats.norm.ppf(alpha))/(1-alpha)
 
-NO_OF_TRADING_DAYS=262
+NO_OF_TRADING_DAYS=260
 
 Nsim=10000
 
